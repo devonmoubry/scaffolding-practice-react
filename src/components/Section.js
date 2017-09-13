@@ -18,7 +18,6 @@ export default class Section extends Component {
               <li>
                 <div>Birthday: {actor.birthday} </div>
               </li>
-
               <li>
                 <div>Date of Death: {actor.deathday === null ? "Still Alive" :  actor.deathday } </div>
               </li>
