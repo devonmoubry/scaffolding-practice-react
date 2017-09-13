@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import actors from '../data/actors';
 export default class Section extends Component {
   render() {
-      let actor = actors.map((actor) => {
+      let actorList = actors.map((actor) => {
         return (
           <li className="list-group-item" key={actor.id}>
             <ul>
@@ -33,7 +33,7 @@ export default class Section extends Component {
         <section>
           <img src="https://fillmurray.com/300/300" alt="Bill Murray"/>
           <ul className="list-group">
-            {actor}
+            {actorList}
           </ul>
         </section>
       )
